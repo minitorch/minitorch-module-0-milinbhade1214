@@ -1,0 +1,23 @@
+## Testing
+
+pytest
+pytest -m task0_0
+pytest tests/test_operators.py
+pytest tests/test_operators.py -k test_sum
+
+
+## Documentations
+"""
+Descriptioin
+
+Args:
+    arg1: descr
+    arg2: descr
+Returns:
+    return value descr
+
+"""
+## Functional Programming
+Functional Programming style: Easy to test, easy to optimize
+from typing import Callable, Iterable
+
